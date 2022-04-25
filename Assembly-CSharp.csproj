@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\lava_animation.cs" />
+    <Compile Include="Assets\Scripts\bird_controller.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
