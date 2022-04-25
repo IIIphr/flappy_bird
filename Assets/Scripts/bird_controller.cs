@@ -22,4 +22,12 @@ public class bird_controller : MonoBehaviour
             rb.AddForce(new Vector3(0, jump_force, 0));
         }
     }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if(other.tag == "lava")
+        {
+            //game over
+        }
+    }
 }
