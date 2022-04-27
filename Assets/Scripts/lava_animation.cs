@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class lava_animation : MonoBehaviour
 {
+
     [SerializeField] private float animation_speed = 0.01f;
-    private Renderer renderer;
+    private new Renderer renderer;
 
     // Start is called before the first frame update
     void Start()
