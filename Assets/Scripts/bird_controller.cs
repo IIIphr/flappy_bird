@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class bird_controller : MonoBehaviour
 {
@@ -27,7 +28,7 @@ public class bird_controller : MonoBehaviour
     {
         if(other.tag == "lava")
         {
-            //game over
+            SceneManager.LoadScene("main_menu");
         }
     }
 }
